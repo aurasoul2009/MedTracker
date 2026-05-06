@@ -4,8 +4,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "dev": "nodemon server.js",
-    "build": "tailwindcss -i ./public/input.css -o ./public/styles.css --minify"
+    "dev": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
@@ -20,7 +19,7 @@
     "twilio": "^6.0.0"
   },
   "devDependencies": {
-    "nodemon": "^3.1.14",
-    "tailwindcss": "^3.4.0"
+    "nodemon": "^3.1.14"
   }
 }
+
