@@ -22,3 +22,7 @@
     "nodemon": "^3.1.14"
   }
 }
+
+"scripts": {
+  "build": "tailwindcss -i ./src/input.css -o ./styles.css --minify"
+}
